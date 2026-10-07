@@ -1,0 +1,11 @@
+Sample Input:
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+
+Sample Output:
+Brute Force: A -> B -> D -> C -> A, Cost = 80, Time = 0.00001549 sec
+Dynamic Programming: A -> C -> D -> B -> A, Cost = 80, Time = 0.00005446 sec
+Nearest Neighbor: A -> B -> D -> C -> A, Cost = 80, Time = 0.00000879 sec
+Expected optimal cost: 80
